@@ -5,7 +5,8 @@
   "main": "pipe.js",
   "scripts": {
     "pipeline": "node ./src/pipe",
-    "pipe-test": "node pipe.test.js"
+    "pipe-test": "node pipe.test.js",
+    "batch-definition": "node ./src/pipe/batchDefinition.pipeline.js"
   },
   "repository": {
     "type": "git",
