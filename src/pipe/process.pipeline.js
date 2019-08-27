@@ -1,7 +1,7 @@
 'use strict';
 
 const AWS = require('aws-sdk');
-AWS.config.loadFromPath("./config.json");
+AWS.config.loadFromPath("./config/config.json");
 const csv = require('fast-csv');
 
 const 
