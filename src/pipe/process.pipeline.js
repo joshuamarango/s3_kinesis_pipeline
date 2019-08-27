@@ -59,16 +59,13 @@ const batch_1 = () => {
                         tolls_amount: x[16],
                         congestion_surcharge: 0
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                    console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 1 has finished being processed") });
         }
@@ -106,16 +103,13 @@ const batch_2 = () => {
                         tolls_amount: x[16],
                         congestion_surcharge: 0
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                    console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 2 has finished being processed") });
         }
@@ -153,16 +147,13 @@ const batch_3 = () => {
                         tolls_amount: x[16],
                         congestion_surcharge: 0
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                    console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 3 has finished being processed") });
         }
@@ -200,16 +191,13 @@ const batch_4 = () => {
                         tolls_amount: x[16],
                         congestion_surcharge: 0
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                   console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 4 has finished being processed") });
         }
@@ -247,16 +235,13 @@ const batch_5 = () => {
                         tolls_amount: x[14],
                         congestion_surcharge: 0
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                   console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 5 has finished being processed") });
         }
@@ -294,16 +279,13 @@ const batch_6 = () => {
                         tolls_amount: x[14],
                         congestion_surcharge: x[17]
                     };
-                    /*
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'StreamName'
+                        StreamName: 'nyc_trip_data_delivery_stream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
                     });
-                    */
-                   console.log(JSON.stringify(output)) // test if output is being returned
                 })
                 .on('end', () => { console.log("Batch 6 has finished being processed") });
         }
