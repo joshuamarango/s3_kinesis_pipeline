@@ -60,9 +60,8 @@ const batch_1 = () => {
                         congestion_surcharge: 0
                     };
                     let fireHose_params = {
-                        Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'taxiDataStream',
-                        PartitionKey: '1'
+                        Record: new Buffer(JSON.stringify(output)),
+                        DeliveryStreamName: 'taxiDataStream'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
                         console.log(err,data)
