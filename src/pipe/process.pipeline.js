@@ -6,7 +6,7 @@ const csv = require('fast-csv');
 
 const 
     s3 = new AWS.S3(),
-    fireHose = new AWS.Firehose();
+    fireHose = new AWS.Kinesis();
 
 const 
     {
@@ -201,7 +201,6 @@ const batch_4 = () => {
                 })
                 .on('end', () => { console.log("Batch 4 has finished being processed") });
         }
-
     }
 };
 
