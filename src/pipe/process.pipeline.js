@@ -61,7 +61,7 @@ const batch_1 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
@@ -106,7 +106,7 @@ const batch_2 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
@@ -151,7 +151,7 @@ const batch_3 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
@@ -196,7 +196,7 @@ const batch_4 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
@@ -240,7 +240,7 @@ const batch_5 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {
@@ -285,7 +285,7 @@ const batch_6 = () => {
                     };
                     let fireHose_params = {
                         Data: new Buffer(JSON.stringify(output)),
-                        StreamName: 'nyc_trip_data_delivery_stream',
+                        StreamName: 'taxiDataStream',
                         PartitionKey: '1'
                     };
                     fireHose.putRecord(fireHose_params, (err,data) => {

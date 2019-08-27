@@ -1,5 +1,7 @@
 'use strict';
 
+const AWS = require('aws-sdk');
+AWS.config.loadFromPath("./config/config.json");
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const 
