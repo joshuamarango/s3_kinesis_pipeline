@@ -4,7 +4,8 @@
   "description": "Data stream for CSV files in s3 to Kinesis Firehose back to new s3 bucket",
   "main": "pipe.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pipeline": "node pipe",
+    "pipe-test": "node pipe.test.js"
   },
   "repository": {
     "type": "git",
