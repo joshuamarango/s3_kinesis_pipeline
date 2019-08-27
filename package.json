@@ -1,0 +1,33 @@
+{
+  "name": "s3_kinesis_pipeline",
+  "version": "0.0.1",
+  "description": "Data stream for CSV files in s3 to Kinesis Firehose back to new s3 bucket",
+  "main": "pipe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuamarango/s3_kinesis_pipeline.git"
+  },
+  "keywords": [
+    "s3",
+    "kinesis",
+    "firehose",
+    "kinesis",
+    "firehose",
+    "data",
+    "engineering",
+    "nodejs"
+  ],
+  "author": "Joshua Marango",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuamarango/s3_kinesis_pipeline/issues"
+  },
+  "homepage": "https://github.com/joshuamarango/s3_kinesis_pipeline#readme",
+  "dependencies": {
+    "aws-sdk": "^2.518.0",
+    "fast-csv": "^3.4.0"
+  }
+}
